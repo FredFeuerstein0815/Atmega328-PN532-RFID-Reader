@@ -70,7 +70,7 @@ success = nfc.readPassiveTargetID(PN532_MIFARE_ISO14443A, &uid[0], &uidLength);
   
     Serial.println("");
 
-  uint8_t code[4] = { 0x12, 0x34, 0xAB, 0xC5 } ;
+  uint8_t code[4] = { 0x12, 0x34, 0xAB, 0xC5 } ; // your UID from RFID-Tag
   uidLength = 4 ;
 
   
