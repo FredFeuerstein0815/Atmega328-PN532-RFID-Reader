@@ -103,7 +103,7 @@ if( memcmp(uid,code,uidLength) == 0 )
 
 else {Serial.print("Falsche UID");
 
-    delay(30000);}
+    delay(30000);}  // How long in milliseconds to block the device if a wrong ID was tried.
 
   }
 
